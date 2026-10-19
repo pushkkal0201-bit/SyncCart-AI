@@ -1,0 +1,19 @@
+# SyncCart hackathon release planogram.
+# Final live-demo SKU classes: copy, olive_oil, bottle.
+# Rectangle coordinates are normalized [x1, y1, x2, y2] against the camera frame.
+# Run scripts/calibrate_planogram.py after mounting Phone 1 to overwrite rect values.
+class_to_sku:
+  copy: COPY-001
+  olive_oil: OLIVE-OIL-001
+  bottle: BOTTLE-001
+
+zones:
+  - zone_id: ZONE-COPY
+    sku: COPY-001
+    rect: [0.05, 0.10, 0.42, 0.90]
+  - zone_id: ZONE-OLIVE-OIL
+    sku: OLIVE-OIL-001
+    rect: [0.43, 0.30, 0.66, 0.90]
+  - zone_id: ZONE-BOTTLE
+    sku: BOTTLE-001
+    rect: [0.67, 0.10, 0.95, 0.90]

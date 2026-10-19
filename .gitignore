@@ -1,0 +1,52 @@
+# Python environments / caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases / logs
+*.db
+*.sqlite
+*.sqlite3
+logs/
+
+# Runtime-generated data
+runtime/*
+!runtime/.gitkeep
+services/api/runtime/*
+!services/api/runtime/.gitkeep
+
+# Captured/annotated datasets and training outputs
+ml/datasets/*/images/*
+ml/datasets/*/labels/*
+ml/datasets/*/split_manifest.json
+runs/
+*.pt
+*.pth
+*.onnx
+
+# Frontend dependencies / builds
+node_modules/
+dist/
+.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

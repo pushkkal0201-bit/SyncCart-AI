@@ -1,0 +1,16 @@
+flowchart TB
+    CCTV[Production CCTV / NVR] --> V[Vision service]
+    P1[Phone 1 hackathon camera] -.-> V
+    V -->|VISION_PICKUP / VISION_RETURN| A[FastAPI core]
+    P2[Customer Phone 2] -->|PRODUCT_SCANNED / DIGITAL_ITEM_REMOVED| A
+    A --> E[Immutable events]
+    E --> PC[Physical cart]
+    E --> DC[Digital cart]
+    PC --> R[Reconciliation]
+    DC --> R
+    R --> D[Discrepancy lifecycle]
+    D --> N[Private nudge]
+    D --> Q[Retail review]
+    A <--> C[Customer app]
+    A <--> O[Retailer operations]
+    A <--> M[Monitoring / AI ops]

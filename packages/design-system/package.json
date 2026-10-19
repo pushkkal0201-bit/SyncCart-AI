@@ -1,0 +1,13 @@
+{
+  "name": "@synccart/design-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "exports": {
+    ".": "./src/index.tsx",
+    "./styles.css": "./styles/tokens.css"
+  }
+}

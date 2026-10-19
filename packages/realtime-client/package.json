@@ -1,0 +1,10 @@
+{
+  "name": "@synccart/realtime-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@synccart/shared-types": "1.0.0"
+  },
+  "exports": "./src/index.ts"
+}

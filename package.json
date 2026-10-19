@@ -1,0 +1,22 @@
+{
+  "name": "synccart-ai-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:customer": "npm --workspace @synccart/customer-web run dev",
+    "build:customer": "npm --workspace @synccart/customer-web run build",
+    "typecheck:customer": "npm --workspace @synccart/customer-web run typecheck",
+    "dev:retailer": "npm --workspace @synccart/retailer-web run dev",
+    "build:retailer": "npm --workspace @synccart/retailer-web run build",
+    "typecheck:retailer": "npm --workspace @synccart/retailer-web run typecheck",
+    "typecheck": "npm run typecheck:customer && npm run typecheck:retailer && npm run typecheck:monitoring",
+    "build": "npm run build:customer && npm run build:retailer && npm run build:monitoring",
+    "dev:monitoring": "npm --workspace @synccart/monitoring-web run dev",
+    "build:monitoring": "npm --workspace @synccart/monitoring-web run build",
+    "typecheck:monitoring": "npm --workspace @synccart/monitoring-web run typecheck"
+  }
+}

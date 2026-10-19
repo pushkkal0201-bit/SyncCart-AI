@@ -1,0 +1,29 @@
+[
+  {
+    "sku": "COPY-001",
+    "barcode": "8900000001019",
+    "name": "Demo Copy / Notebook",
+    "category": "General Merchandise",
+    "unit_price_minor": 6000,
+    "currency": "INR",
+    "expected_visual_class": "copy"
+  },
+  {
+    "sku": "OLIVE-OIL-001",
+    "barcode": "8900000001026",
+    "name": "Demo Olive Oil",
+    "category": "Grocery",
+    "unit_price_minor": 25000,
+    "currency": "INR",
+    "expected_visual_class": "olive_oil"
+  },
+  {
+    "sku": "BOTTLE-001",
+    "barcode": "8900000001033",
+    "name": "Demo Bottle",
+    "category": "General Merchandise",
+    "unit_price_minor": 12000,
+    "currency": "INR",
+    "expected_visual_class": "bottle"
+  }
+]

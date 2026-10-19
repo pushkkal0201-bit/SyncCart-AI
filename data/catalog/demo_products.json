@@ -1,0 +1,83 @@
+[
+  {
+    "sku": "COLA-001",
+    "barcode": "8900000000012",
+    "name": "Demo Cola",
+    "category": "Beverages",
+    "unit_price_minor": 4000,
+    "currency": "INR",
+    "expected_visual_class": "cola"
+  },
+  {
+    "sku": "CHIPS-001",
+    "barcode": "8900000000029",
+    "name": "Demo Chips",
+    "category": "Snacks",
+    "unit_price_minor": 3000,
+    "currency": "INR",
+    "expected_visual_class": "chips"
+  },
+  {
+    "sku": "SOAP-001",
+    "barcode": "8900000000036",
+    "name": "Demo Soap",
+    "category": "Personal Care",
+    "unit_price_minor": 4500,
+    "currency": "INR",
+    "expected_visual_class": "soap"
+  },
+  {
+    "sku": "JUICE-001",
+    "barcode": "8900000000043",
+    "name": "Demo Juice",
+    "category": "Beverages",
+    "unit_price_minor": 5000,
+    "currency": "INR",
+    "expected_visual_class": "juice"
+  },
+  {
+    "sku": "BISCUIT-001",
+    "barcode": "8900000000050",
+    "name": "Demo Biscuits",
+    "category": "Snacks",
+    "unit_price_minor": 2500,
+    "currency": "INR",
+    "expected_visual_class": "biscuits"
+  },
+  {
+    "sku": "WATER-001",
+    "barcode": "8900000000067",
+    "name": "Demo Water",
+    "category": "Beverages",
+    "unit_price_minor": 2000,
+    "currency": "INR",
+    "expected_visual_class": "water"
+  },
+  {
+    "sku": "COPY-001",
+    "barcode": "8900000001019",
+    "name": "Demo Copy / Notebook",
+    "category": "General Merchandise",
+    "unit_price_minor": 6000,
+    "currency": "INR",
+    "expected_visual_class": "copy"
+  },
+  {
+    "sku": "OLIVE-OIL-001",
+    "barcode": "8900000001026",
+    "name": "Demo Olive Oil",
+    "category": "Grocery",
+    "unit_price_minor": 25000,
+    "currency": "INR",
+    "expected_visual_class": "olive_oil"
+  },
+  {
+    "sku": "BOTTLE-001",
+    "barcode": "8900000001033",
+    "name": "Demo Bottle",
+    "category": "General Merchandise",
+    "unit_price_minor": 12000,
+    "currency": "INR",
+    "expected_visual_class": "bottle"
+  }
+]
