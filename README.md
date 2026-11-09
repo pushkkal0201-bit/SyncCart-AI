@@ -1,6 +1,6 @@
 # SyncCart AI
 
-### IIT Bombay Hackathon Submission · Team Synergy · Release v1.0
+### IIT Bombay Hackathon Submission · Team Synergy · 
 
 ## **See the shelf. Trust the cart. Keep checkout moving.**
 
